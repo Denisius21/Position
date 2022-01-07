@@ -1,0 +1,57 @@
+.Master-div {
+  width: 30vw;
+  height: 250px;
+  border-radius: 10px;
+}
+.first-div {
+  background: rgb(190, 16, 49);
+  background: linear-gradient(
+    301deg,
+    rgba(190, 16, 49, 0.7371323529411764) 4%,
+    rgba(191, 17, 78, 1) 9%,
+    rgba(191, 17, 78, 1) 9%,
+    rgba(195, 24, 232, 0.5074404761904762) 36%,
+    rgba(160, 189, 187, 1) 68%,
+    rgba(16, 151, 190, 0.7371323529411764) 100%
+  );
+}
+.Master {
+  padding-left: 45px;
+}
+.fist-h {
+  font-size: 25px;
+  padding-top: 35px;
+}
+.first-text {
+  font-size: 35px;
+  padding-top: 30px;
+}
+.seco-text {
+  font-size: 18px;
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+.img-class {
+  position: absolute;
+  right: 75%;
+  bottom: 90%;
+}
+.Round {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.2;
+}
+.round2 {
+  position: absolute;
+  left: 280px;
+  bottom: 420px;
+}
+.round1 {
+  width: 210px;
+  height: 210px;
+  position: absolute;
+  left: 210px;
+  bottom: 280px;
+}
