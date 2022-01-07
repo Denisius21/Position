@@ -1,9 +1,18 @@
+*{
+margin: 0;
+padding: 0;
+}
 .Master-div {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
   width: 30vw;
   height: 250px;
+  margin-top: 30vh;
   border-radius: 10px;
 }
 .first-div {
+  margin-left: 20px;
   background: rgb(190, 16, 49);
   background: linear-gradient(
     301deg,
@@ -13,6 +22,29 @@
     rgba(195, 24, 232, 0.5074404761904762) 36%,
     rgba(160, 189, 187, 1) 68%,
     rgba(16, 151, 190, 0.7371323529411764) 100%
+  );
+}
+.second-div {
+  margin-left: 45px;
+  margin-right: 45px;
+  background: rgb(34, 238, 41);
+  background: linear-gradient(
+    301deg,
+    rgba(34, 238, 41, 1) 0%,
+    rgba(133, 89, 146, 0.9023984593837535) 29%,
+    rgba(48, 90, 225, 1) 47%,
+    rgba(32, 230, 228, 0.8099614845938375) 67%,
+    rgba(104, 59, 181, 0.5242471988795518) 74%,
+    rgba(102, 209, 5, 0.8463760504201681) 90%
+  );
+}
+.third-div {
+  background: rgb(222, 10, 10);
+  background: linear-gradient(
+    301deg,
+    rgba(222, 10, 10, 1) 0%,
+    rgba(241, 239, 12, 0.8407738095238095) 57%,
+    rgba(179, 240, 5, 0.8407738095238095) 87%
   );
 }
 .Master {
@@ -33,25 +65,26 @@
 }
 .img-class {
   position: absolute;
-  right: 75%;
-  bottom: 90%;
+  right: 45px; ;
+  top: 35px;
 }
 .Round {
-  width: 190px;
-  height: 190px;
   border-radius: 50%;
   background-color: white;
   opacity: 0.2;
 }
-.round2 {
-  position: absolute;
-  left: 280px;
-  bottom: 420px;
-}
 .round1 {
-  width: 210px;
-  height: 210px;
+  width: 200px;
+  height: 200px;
   position: absolute;
-  left: 210px;
-  bottom: 280px;
+  left: 230px;
+  bottom: -45px;
 }
+.round2 {
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  left: 270px;
+  bottom: 105px;
+}
+
