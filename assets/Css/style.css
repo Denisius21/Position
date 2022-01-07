@@ -1,6 +1,6 @@
-*{
-margin: 0;
-padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 .Master-div {
   display: inline-block;
@@ -65,7 +65,7 @@ padding: 0;
 }
 .img-class {
   position: absolute;
-  right: 45px; ;
+  right: 45px;
   top: 35px;
 }
 .Round {
@@ -87,4 +87,3 @@ padding: 0;
   left: 270px;
   bottom: 105px;
 }
-
